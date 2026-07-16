@@ -1,0 +1,11 @@
+name: Nameless
+description: $description
+prefix: Nameless
+version: '${version}'
+
+main: net.ravinvt.nameless.Nameless
+api-version: '1.21.11'
+load: POSTWORLD
+
+authors: [ Ravin ]
+website: cdn.ssid.cc/project/nameless
