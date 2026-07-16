@@ -1,4 +1,4 @@
-package net.ravinvt.nameless;
+package net.ravinvt.nameless.code;
 
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.minimessage.MiniMessage;

@@ -1,0 +1,6 @@
+# DO NOT CHANGE
+version: 0.1.0
+
+# This determines how long the plugin should wait before every recycle of ID event.
+# (In Minutes)
+event.player.shift_id: 10

@@ -7,5 +7,27 @@ main: net.ravinvt.nameless.Nameless
 api-version: '1.21.11'
 load: POSTWORLD
 
-authors: [ Ravin ]
+authors: [ Ravin, CodexStudios ]
 website: cdn.ssid.cc/project/nameless
+
+folia-supported: true
+
+permissions:
+  nameless.admin:
+    description: The permission for admins to run admin commands
+    default: op
+  nameless.default:
+    description: The default permission for the plugin
+    default: not op
+
+commands:
+  nameless:
+    description: Change the controls
+    permission: nameless.admin
+    permission-message: Only overseers are allowed to perform this action.
+
+# Purely to make sure that these load before this plugin
+softdepend:
+  - ProtocolLib
+  - ViaVersion
+  - ViaBackwards
